@@ -1,4 +1,4 @@
-import Logo from '../../assets/logo.jpg';
+import Logo from '../../assets/react_logo.png';
 import data from './data';
 import { IoColorWand } from 'react-icons/io5';
 import './navbar.css';

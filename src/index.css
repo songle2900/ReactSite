@@ -73,7 +73,7 @@ section > p {
 
 /* General Anchor Styles */
 a {
-  color: var(--color-white);
+  /* color: var(--color-white); */
   transition: var(--transition);
 }
 
