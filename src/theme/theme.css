@@ -92,8 +92,6 @@
   background: #111;
 }
 
-
-
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {
   .card.theme__modal {
