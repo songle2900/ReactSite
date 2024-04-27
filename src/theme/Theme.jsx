@@ -13,7 +13,7 @@ const Theme = () => {
       </small>
       <div className="theme__primary-wrapper">
         <h5>Primary Colour</h5>
-        <div className="theme__primary_colors">
+        <div className="theme__primary-colors">
           {primaryColors.map((pColor) => (
             <PrimaryColor key={pColor.className} className={pColor.className} />
           ))}
