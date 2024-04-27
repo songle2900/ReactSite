@@ -8,7 +8,7 @@ import FAQs from './sections/faqs/FAQs';
 import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
 import FloatingNav from './sections/floating-nav/FloatingNav';
-import Modal from './components/Modal';
+import Theme from './theme/Theme';
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
       <FAQs />
       <Contact />
       <Footer />
-      <Modal />
+      <Theme />
       {/* <FloatingNav /> */}
     </main>
   );
