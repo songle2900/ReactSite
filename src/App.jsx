@@ -25,7 +25,7 @@ const App = () => {
       <Contact />
       <Footer />
       <Theme />
-      {/* <FloatingNav /> */}
+      <FloatingNav />
     </main>
   );
 };
