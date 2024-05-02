@@ -10,5 +10,11 @@ export const ThemeProvider = ({children}) => {
   const themeHandler = (buttonClassName) => {
     dispatchTheme({type: buttonClassName})
   }
-  return <ThemeContext.Provider>{children}</ThemeContext.Provider>
+  console.log(themeState);
+  return <ThemeContext.Provider value={{themeState, themeHandler}}>{children}</ThemeContext.Provider>
+}
+
+// custom hoonk to use our theme context wherever we want in our project
+export const useThemeContext = () => {
+  return useContext(ThemeContext);
 }
